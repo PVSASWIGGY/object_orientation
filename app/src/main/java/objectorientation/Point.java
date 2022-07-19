@@ -1,2 +1,9 @@
-package objectorientation;public class Point {
+package objectorientation;
+
+public class Point {
+    int radius;
+    String color;
+    public void makeBolder(){
+        radius++;
+    }
 }

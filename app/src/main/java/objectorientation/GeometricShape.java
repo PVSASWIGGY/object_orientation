@@ -1,4 +1,9 @@
 package objectorientation;
 
-public class GeometricShapes {
+public class GeometricShape {
+    String shape;
+    int noOfSides;
+    public boolean isPolygon(){
+        return noOfSides>0;
+    }
 }
